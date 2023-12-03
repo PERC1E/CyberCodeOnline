@@ -69,7 +69,7 @@
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"amount"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "${amount} 比特币将被存入帮派的账户，这是不可逆转的",
+ 	 	 	 	 	"trans": "${amount} 比特币将被存入帮派的账户，此操作不可逆转",
  	 	 	 	 	"eng": "${amount} bitcoin will be deposit into your gang account, this cannot be reversed"
  	 	 	 	}
  	 	 	},
@@ -173,7 +173,7 @@
  	 	 	 	},
  	 	 	 	"progress": {
  	 	 	 	 	"title": {
- 	 	 	 	 	 	"trans": "解锁进展",
+ 	 	 	 	 	 	"trans": "解锁进度",
  	 	 	 	 	 	"eng": "Unlock progress"
  	 	 	 	 	}
  	 	 	 	},
@@ -235,7 +235,7 @@
  	 	 	 	"eng": "Deposit Item"
  	 	 	},
  	 	 	"putItemToVaultDesc": {
- 	 	 	 	"trans": "将物品存入您的金库中",
+ 	 	 	 	"trans": "将物品存入保险库",
  	 	 	 	"eng": "Put items into your vault"
  	 	 	},
  	 	 	"takeItemFromVault": {
@@ -243,7 +243,7 @@
  	 	 	 	"eng": "Withdraw Item"
  	 	 	},
  	 	 	"takeItemFromVaultDesc": {
- 	 	 	 	"trans": "将物品从您的金库中取出",
+ 	 	 	 	"trans": "从保险库取出物品",
  	 	 	 	"eng": "Take items out from your vault"
  	 	 	},
  	 	 	"upgradeSlot": {
@@ -257,20 +257,20 @@
  	 	 	 	"vars": [
  	 	 	 	 	"upgradeToSlot"
  	 	 	 	],
- 	 	 	 	"trans": "增加您可以存储在金库中的最大物品数到${upgradeToSlot}",
+ 	 	 	 	"trans": "将您可以存储在保险库中的最大物品数提升至${upgradeToSlot}",
  	 	 	 	"eng": "Increase the max amount of items you can store in vault to ${upgradeToSlot}"
  	 	 	},
  	 	 	"itemLocked": {
- 	 	 	 	"trans": "此项目已锁定，无法存储。",
+ 	 	 	 	"trans": "此物品已锁定，无法存入。",
  	 	 	 	"eng": "This item is locked and can not be stored."
  	 	 	},
  	 	 	"modal": {
  	 	 	 	"selectDepositItem": {
- 	 	 	 	 	"trans": "您想把多少件物品放在金库里？",
+ 	 	 	 	 	"trans": "您想把多少件物品存入保险库？",
  	 	 	 	 	"eng": "How many would you like to put in the vault?"
  	 	 	 	},
  	 	 	 	"selectWithdrawItem": {
- 	 	 	 	 	"trans": "您想要从金库里取出多少件物品？",
+ 	 	 	 	 	"trans": "您想从保险库取出多少件物品？",
  	 	 	 	 	"eng": "How many would you like to withdraw from the bank?"
  	 	 	 	},
  	 	 	 	"selectDeposit": {
@@ -293,7 +293,7 @@
  	 	 	 	}
  	 	 	},
  	 	 	"noBalance": {
- 	 	 	 	"trans": "当您没有余额时您不能取钱。",
+ 	 	 	 	"trans": "当您没有余额时无法取款。",
  	 	 	 	"eng": "You can't withdraw when you have no balance."
  	 	 	}
  	 	},
@@ -325,7 +325,7 @@
  	 	 	 	"eng": "Reestablishing connection"
  	 	 	},
  	 	 	"notAtBottom": {
- 	 	 	 	"trans": "您正在观看旧消息",
+ 	 	 	 	"trans": "您正在查看旧消息",
  	 	 	 	"eng": "You are looking at old messages"
  	 	 	},
  	 	 	"replyTo": {
@@ -336,7 +336,7 @@
  	 	 	 	"eng": "Replying to ${playerName}"
  	 	 	},
  	 	 	"linksNotAllowed": {
- 	 	 	 	"trans": "请不要发送链接",
+ 	 	 	 	"trans": "禁止发送链接",
  	 	 	 	"eng": "Links are not allowed"
  	 	 	},
  	 	 	"spamBlock": {
@@ -416,20 +416,20 @@
  	 	 	 	 	 	"playerName",
  	 	 	 	 	 	"time"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "发表于${playerName} ${time}以前",
+ 	 	 	 	 	"trans": "由${playerName}发布于${time}前",
  	 	 	 	 	"eng": "Posted by ${playerName} ${time} ago"
  	 	 	 	}
  	 	 	},
  	 	 	"createClan": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "你不是任何帮派的成员",
+ 	 	 	 	 	"trans": "您还不是任何帮派的成员",
  	 	 	 	 	"eng": "You are not a member of any gang"
  	 	 	 	},
  	 	 	 	"subtitle": {
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"cost"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "当您属于帮派时，将启用帮派聊天。",
+ 	 	 	 	 	"trans": "当您加入帮派后，将启用帮派聊天。\\n在Global Chat中结交好友以加入帮派或创建你自己的帮派并邀请好友！",
  	 	 	 	 	"eng": "gang chat will be enabled when you belong to a gang.\\njoin a gang by making friends in global chat or create your own gang and invite your friends!"
  	 	 	 	},
  	 	 	 	"createButton": {
@@ -441,7 +441,7 @@
  	 	 	 	 	 	"cost",
  	 	 	 	 	 	"currency"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "为${cost} ${currency}创建一个帮派",
+ 	 	 	 	 	"trans": "以${cost} ${currency}创建一个帮派",
  	 	 	 	 	"eng": "Create a gang for ${cost} ${currency}"
  	 	 	 	}
  	 	 	}
@@ -482,11 +482,11 @@
  	 	 	 	}
  	 	 	},
  	 	 	"lowPrintLevelTip2": {
- 	 	 	 	"trans": "通过打印更多的缓存来增加您的分子打印等级以创造更强大的武器",
+ 	 	 	 	"trans": "通过打印更多的图纸文件来提高您的分子打印等级以创造更强大的武器",
  	 	 	 	"eng": "Increase your Printing Rank to create more powerful weapons by printing more caches"
  	 	 	},
  	 	 	"lowPrintLevelTip3": {
- 	 	 	 	"trans": "或通过黑市来自动打印和销售您的缓存",
+ 	 	 	 	"trans": "或通过黑市自动打印并销售您的图纸文件",
  	 	 	 	"eng": "Or by auto print and selling your caches in the Black Market"
  	 	 	},
  	 	 	"quickSlots": {
@@ -507,7 +507,7 @@
  	 	 	},
  	 	 	"bindModal": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "选择一个可以使用的道具以绑定到快捷栏",
+ 	 	 	 	 	"trans": "选择一个可使用的道具绑定到快捷栏",
  	 	 	 	 	"eng": "Select a usable item to bind to a quick slot"
  	 	 	 	}
  	 	 	}
@@ -559,7 +559,7 @@
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"minutes"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "${minutes}单位",
+ 	 	 	 	 	"trans": "${minutes}分钟",
  	 	 	 	 	"eng": "Skip ${minutes} minutes"
  	 	 	 	},
  	 	 	 	"title2": {
@@ -567,7 +567,7 @@
  	 	 	 	 	"eng": "Finish Now"
  	 	 	 	},
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "全球时间跳跃会让您跳过等待时间并立即完成手上的任务。 \n     这将对所有执行挂机任务中的玩家生效。",
+ 	 	 	 	 	"trans": "立即完成当前的任务并为所有玩家跳过等待时间以示您的支持，并赚取跳过点！",
  	 	 	 	 	"eng": "Finish the task instantly for all players in the game and earn skip points to show your support to other players!"
  	 	 	 	}
  	 	 	},
@@ -584,7 +584,7 @@
  	 	 	 	 	 	"timeSkipItemName",
  	 	 	 	 	 	"itemSkipMinutes"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "使用一个您的${timeSkipItemName}来进行${itemSkipMinutes}分钟的全球时间跳跃",
+ 	 	 	 	 	"trans": "使用您的一个${timeSkipItemName}以跳跃${itemSkipMinutes}分钟的全球时间",
  	 	 	 	 	"eng": "Use one of your ${timeSkipItemName} to skip ${itemSkipMinutes} minutes"
  	 	 	 	}
  	 	 	},
@@ -607,12 +607,12 @@
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"skippingPlayerCount"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "还有 ${skippingPlayerCount}用户正在进行全球时间跳跃..",
+ 	 	 	 	 	"trans": "正在为${skippingPlayerCount}名用户进行全球时间跳跃..",
  	 	 	 	 	"eng": "Accelerating ${skippingPlayerCount} users.."
  	 	 	 	}
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "全球时间跳跃会让您跳过挂机等待时间并立即完成手上的任务。 \n     这将对所有执行挂机任务中的玩家生效。",
+ 	 	 	 	"trans": "全球时间跳跃会让您跳过挂机等待时间并立即完成当前的任务。 \n     这将对所有执行挂机任务的玩家生效。",
  	 	 	 	"eng": "Global Skip allow you to skip the AFK waiting time, and finish it instantly.\r\n    this effect will be applied to all players performing an AFK task"
  	 	 	}
  	 	},
@@ -680,7 +680,7 @@
  	 	 	 	}
  	 	 	},
  	 	 	"areaEffect": {
- 	 	 	 	"trans": "[AOE]范围效果，此物品的效果将施加到与您对抗同一敌人的盟友上。",
+ 	 	 	 	"trans": "[AOE]范围效果，此物品的效果将施加到与您共同作战的盟友上。",
  	 	 	 	"eng": "[AOE] Area of Effect, the effect of this item will apply allies in combat with you."
  	 	 	},
  	 	 	"lockModal": {
@@ -690,7 +690,7 @@
  	 	 	 	 	 	"eng": "Unlock item?"
  	 	 	 	 	},
  	 	 	 	 	"description": {
- 	 	 	 	 	 	"trans": "解锁物品时，您可以进行交易或废除。",
+ 	 	 	 	 	 	"trans": "解锁物品后，您可以进行交易或回收。",
  	 	 	 	 	 	"eng": "When item is unlocked, you can trade or scrap it."
  	 	 	 	 	}
  	 	 	 	},
@@ -700,17 +700,17 @@
  	 	 	 	 	 	"eng": "Lock item?"
  	 	 	 	 	},
  	 	 	 	 	"description": {
- 	 	 	 	 	 	"trans": "您可以通过锁定该物品意外刮擦或出售该物品。",
+ 	 	 	 	 	 	"trans": "您可以锁定物品以防意外回收或出售。",
  	 	 	 	 	 	"eng": "You can prevent accidentally scraping or selling this item by locking it."
  	 	 	 	 	}
  	 	 	 	}
  	 	 	},
  	 	 	"locked": {
- 	 	 	 	"trans": "锁定",
+ 	 	 	 	"trans": "已锁定",
  	 	 	 	"eng": "Locked"
  	 	 	},
  	 	 	"unlocked": {
- 	 	 	 	"trans": "解锁",
+ 	 	 	 	"trans": "未锁定",
  	 	 	 	"eng": "Unlocked"
  	 	 	},
  	 	 	"upgradeModuleTitleHeader": {
@@ -748,11 +748,11 @@
  	 	 	 	"eng": "You can't print equipment while ${currentAction}"
  	 	 	},
  	 	 	"printCache": {
- 	 	 	 	"trans": "打印缓存",
+ 	 	 	 	"trans": "打印图纸文件",
  	 	 	 	"eng": "Print Cache"
  	 	 	},
  	 	 	"printCacheDescription": {
- 	 	 	 	"trans": "将此缓存打印为您可以使用的武器或装备。",
+ 	 	 	 	"trans": "将此图纸文件打印为您可以使用的武器或装备。",
  	 	 	 	"eng": "Turn this cache into a weapon or equipment item that you can use."
  	 	 	},
  	 	 	"openContainer": {
@@ -771,7 +771,7 @@
  	 	 	 	"vars": [
  	 	 	 	 	"itemName"
  	 	 	 	],
- 	 	 	 	"trans": "您现在不能立即打开${itemName}",
+ 	 	 	 	"trans": "您现在不能打开${itemName}",
  	 	 	 	"eng": "You cannot open ${itemName} right now"
  	 	 	}
  	 	},
@@ -789,11 +789,11 @@
  	 	 	"factoryReset": {
  	 	 	 	"confirmation": {
  	 	 	 	 	"title": {
- 	 	 	 	 	 	"trans": "您确定要出厂设置吗？",
+ 	 	 	 	 	 	"trans": "您确定要恢复出厂设置吗？",
  	 	 	 	 	 	"eng": "Are you sure you want to factory reset?"
  	 	 	 	 	},
  	 	 	 	 	"description": {
- 	 	 	 	 	 	"trans": "通过重置此项目，您将失去所有校准，但是您可以将其交易给其他玩家。",
+ 	 	 	 	 	 	"trans": "通过重置此物品，您将失去所有校准，但是您可以将其交易给其他玩家。",
  	 	 	 	 	 	"eng": "By resetting this item, you will lose all calibration, however you will be able to trade it to other players."
  	 	 	 	 	}
  	 	 	 	},
@@ -802,11 +802,11 @@
  	 	 	},
  	 	 	"noItem": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "您不再有这个项目",
+ 	 	 	 	 	"trans": "您不再持有此物品",
  	 	 	 	 	"eng": "You no longer have this item"
  	 	 	 	},
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "返回库存",
+ 	 	 	 	 	"trans": "返回背包",
  	 	 	 	 	"eng": "press back to go back to inventory"
  	 	 	 	}
  	 	 	}
@@ -827,7 +827,7 @@
  	 	},
  	 	"backToPreviusLoc": {
  	 	 	"longPressBackToCity": {
- 	 	 	 	"trans": "长按返回香格里拉市中心",
+ 	 	 	 	"trans": "长按以返回香格里拉市中心",
  	 	 	 	"eng": "Long press to go back to city"
  	 	 	}
  	 	},
@@ -854,7 +854,7 @@
  	 	 	 	"eng": "Travel"
  	 	 	},
  	 	 	"hideLowerLevelTravels": {
- 	 	 	 	"trans": "隐藏较低的水平",
+ 	 	 	 	"trans": "隐藏较低等级",
  	 	 	 	"eng": "Hide lower levels"
  	 	 	}
  	 	},
@@ -890,7 +890,7 @@
  	 	 	 	 	 	"eng": "printing level ${level} equipments"
  	 	 	 	 	},
  	 	 	 	 	"description": {
- 	 	 	 	 	 	"trans": "装备打印基于您的打印等级，通过打印更多物品来升级您的打印等级",
+ 	 	 	 	 	 	"trans": "装备打印由您的打印等级决定，通过打印更多物品来提升您的打印等级",
  	 	 	 	 	 	"eng": "equipment printing is based on your printing rank, level up your printing rank by printing more items"
  	 	 	 	 	}
  	 	 	 	}
